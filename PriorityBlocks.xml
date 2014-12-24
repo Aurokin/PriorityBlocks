@@ -1,5 +1,8 @@
-## Interface: 60000
-## Title: PriorityBlocks
-## Notes: Spell Priority System Represented By Blocks
-PriorityBlocks.lua
-PriorityBlocks.xml
+<Script file="PriorityBlocks.lua"/>
+<Frame name="PriorityBlocks">
+  <Scripts>
+    <OnLoad>
+      PriorityBlocks_OnLoad();
+    </OnLoad>
+  </Scripts>
+</Frame>

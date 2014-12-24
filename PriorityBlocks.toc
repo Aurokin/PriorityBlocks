@@ -1,0 +1,5 @@
+## Interface: 60000
+## Title: PriorityBlocks
+## Notes: Spell Priority System Represented By Blocks
+PriorityBlocks.lua
+PriorityBlocks.xml
