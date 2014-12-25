@@ -36,6 +36,13 @@ local function createContainer(self, size, blocks, margin, x, y)
   for i = 1, blocks, 1 do
     createPriorityBlock(size, blocks, margin, i);
   end
+
+end
+
+local function createConfig()
+  local config = CreateFrame('Frame', 'PriorityBlocks_Config', InterfaceOptionsFrame);
+  config.name = "PriorityBlocks";
+  InterfaceOptions_AddCategory(config);
 end
 
 local function eventHandler(self, event, ...)
@@ -62,6 +69,7 @@ local function eventHandler(self, event, ...)
         PriorityBlocks_Y = 0;
       end
       createContainer(self, PriorityBlocks_Size, PriorityBlocks_Blocks, PriorityBlocks_Margin, PriorityBlocks_X, PriorityBlocks_Y);
+      createConfig();
     end
   end
 end
