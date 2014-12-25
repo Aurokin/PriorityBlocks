@@ -2,4 +2,5 @@
 ## Title: PriorityBlocks
 ## Notes: Spell Priority System Represented By Blocks
 ## SavedVariables: PriorityBlocks_Loaded
+## SavedVariablesPerCharacter: PriorityBlocks_Blocks, PriorityBlocks_Size, PriorityBlocks_Margin, PriorityBlocks_X, PriorityBlocks_Y
 PriorityBlocks.lua
